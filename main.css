@@ -1,3 +1,13 @@
-p:nth-child(even){color:green;}
-p:nth-child(odd){color:red;}
-p:nth-child(4n){color:blue;}
+body {
+	background-color: #00cccc;
+	text-transform: uppercase;
+	font-family: 'Comic Sans MS', sans-serif;
+	color: #993300;
+}
+
+.navbar {
+	background-color: #008080; 
+	padding-bottom: 20px;
+	border-radius: 0;
+	border: #993300 solid 1px;
+}
