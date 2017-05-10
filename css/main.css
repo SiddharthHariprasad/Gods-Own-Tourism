@@ -1,13 +1,69 @@
 body {
-	background-color: #00cccc;
-	text-transform: uppercase;
-	font-family: 'Comic Sans MS', sans-serif;
+	font-size: 16px;
 	color: #993300;
+	background-color: #00cccc;
+	font-family: 'Comic Sans MS', sans-serif;
 }
 
-.navbar {
+/** HEADER **/
+#header-nav {
 	background-color: #008080; 
-	padding-bottom: 20px;
 	border-radius: 0;
-	border: #993300 solid 1px;
+	border: 0;
 }
+
+#logo-img {
+	background: url('../images/Gods_Own_Tourism.png') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand h1 { /*God's Own Tourism*/
+	font-family: 'Comic Sans MS', serif;
+	color: #993300;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75
+} 
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-brand p { /*Planing World Class Tours*/
+	color: #000;
+	text-transform: uppercase;
+	font-size: .8em;
+	margin-top: 8px;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color: #993300;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+#nav-list  a span {
+	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle {
+	clear:both;
+	margin-top: -10px;
+}
+/** End of HEADER **/
