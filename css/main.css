@@ -13,12 +13,10 @@ body {
 }
 
 #logo-img {
-	background: url('../images/Gods_Own_Tourism.png') no-repeat;
+	background: url('../images/Gods_Own_Tourism_Logo.png') no-repeat;
 	width: 150px;
 	height: 150px;
 	margin: 10px 15px 10px 0;
-	overflow: none;
-	align-self: center;
 }
 
 .navbar-brand {
